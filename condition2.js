@@ -16,3 +16,6 @@ console.log('Taka manage koro');
 }else{
     console.log('Kopal ar porasona nai');
 }
+
+var date = new Date();
+console.log(date);
