@@ -1,6 +1,6 @@
 // 10! = 10*9*8*7*6*5*4*3*2*1;
 
-
+// Use While loop
 
 function factorialRe(num){
     let fact = 1;
@@ -15,7 +15,7 @@ console.log(output);
 console.log('**************************************');
 
 
-
+// Use For loop
 function factorialRecursive(n){
     let fact = 1;
     for (let i = n; i >=1; i--) {
@@ -31,6 +31,8 @@ console.log(output1);
 7!  = (7-1)!*7;
 n!  = (n-1)!*n;
 */
+
+// Use condition
 
 function factorialRecursive(n){
     if(n===0){
