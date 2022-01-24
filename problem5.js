@@ -7,3 +7,4 @@ function giveMeSomething(a) {
 
 var output = giveMeSomething("Sujon");
 console.log(output);
+
