@@ -11,5 +11,12 @@ console.log(date.toLocaleString()); // 1/24/2022, 10:35:39 PM
 console.log(date.toUTCString()); // Mon, 24 Jan 2022 16:37:34 GMT
 
 
+console.log(date.getFullYear()); //2022
+console.log(date.getMonth()); 
+console.log(date.getDay());
+console.log(date.getMinutes());
+
+
+
 
 

@@ -20,3 +20,12 @@ console.log('I it Bhat mac');
 }else {
     console.log('Only Ruti');
 } 
+
+
+const num = 5;
+if(num == 10){
+    console.log("sujon");
+}
+else{
+    console.log("false");
+}
