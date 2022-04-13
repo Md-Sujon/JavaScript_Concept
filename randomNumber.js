@@ -6,9 +6,11 @@
 //     randomNumber
 // );
 
-function generateRandom(max){
-    const randomNumber = Math.round(Math.random() * max);
+function generateRandom(max, min){
+    const randomNumber = Math.floor(Math.random() * min + (max-min));
     return randomNumber;
 }
 
-console.log(generateRandom(200));
+console.log(generateRandom(5, 10));
+
+
